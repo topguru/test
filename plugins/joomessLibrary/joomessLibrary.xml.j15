@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://joomla.org/xml/dtd/1.5/plugin-install.dtd">
+<install type="plugin" version="1.5" method="upgrade" group="system">
+  <name>Joomess - Library Plugin</name>
+  <creationDate>07-April-2012</creationDate>
+  <author>Johannes Meßmer</author>
+  <authorEmail>service@joomess.de</authorEmail>
+  <authorUrl>http://www.joomess.de</authorUrl>
+  <copyright>Copyright (C) 2012 Johannes Meßmer</copyright>
+  <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPLv3</license>
+  <version>1.04</version>
+  <description></description>
+  <files>
+    <filename plugin="joomessLibrary">joomessLibrary.php</filename>
+	<folder>joomessLibrary</folder>
+  </files>
+  <languages folder="joomessLibrary/language">
+  	<language tag="de-DE">de-DE.plg_system_joomessLibrary.ini</language>
+   	<language tag="en-GB">en-GB.plg_system_joomessLibrary.ini</language>
+  </languages>
+  <params>
+  	<param name="full_cache_css" type="radio" default="0" label="JL_FULL_CACHE_CSS" description="JL_FULL_CACHE_CSS_DESC">
+       	<option value="1">JL_ENABLED</option>
+    	<option value="0">JL_DISABLED</option>
+    </param>
+	<param name="css_cache" type="radio" default="1" label="JL_CSS_CACHE_CSS" description="JL_CSS_CACHE_DESC">
+       	<option value="1">JL_ENABLED</option>
+        <option value="0">JL_DISABLED</option>
+    </param>
+  </params>
+</install>

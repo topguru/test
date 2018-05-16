@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Shopping Credit">
+		<message>
+			Displays Shopping Credit Menu on User Side
+		</message>
+	</layout>
+	<state>
+		<name>User Account</name>
+		<description>Displays List Menu on User Side.</description>
+	</state>
+</metadata>

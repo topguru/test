@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="core"
+		label="User Information">
+		
+		<field name="ap_account_id" type="hidden"
+			filter="integer"
+		/>
+		
+		<field name="id" type="hidden"
+			filter="integer"
+		/>
+		
+		<field name="nameuser" type="text"
+			description="Username"
+			filter="string"
+			label="Username"
+			message="Username"
+			size="30"
+		/>
+		
+		<field name="gender" type="text"
+			description="Gender"
+			filter="string"
+			label="Gender"
+			message="Gender"
+			size="30"
+		/>
+		
+		<field name="email" type="text"
+			description="E-mail address"
+			filter="string"
+			label="E-mail address"
+			message="E-mail address"
+			validate="email"
+			size="30"
+		/>
+		
+		<field name="firstname" type="text"
+			description="First Name"
+			filter="string"
+			label="First Name"
+			message="First Name"
+			size="30"
+			required="true"
+		/>
+		
+		<field name="lastname" type="text"
+			description="Last Name"
+			filter="string"
+			label="Last Name"
+			message="Last Name"
+			size="30"
+		/>
+		
+		<field name="street" type="text"
+			description="Street"
+			filter="string"
+			label="Street"
+			message="First Name"
+			size="30"
+		/>
+		
+		<field name="city" type="text"
+			description="City"
+			filter="city"
+			label="City"
+			message="City"
+			size="30"
+		/>
+		
+		<field name="state" type="text"
+			description="State/Province"
+			filter="city"
+			label="State/Province"
+			message="State/Province"
+			size="30"
+		/>
+		
+		<field name="post_code" type="text"
+			description="Post Code"
+			filter="post_code"
+			label="Post Code"
+			message="Post Code"
+			size="30"
+			class="number"
+			id="postcode"
+			onkeypress="test();"
+		/>
+		
+		<field name="country" type="text"
+			description="Country"
+			filter="country"
+			label="Country"
+			message="Country"
+			size="30"
+		/>
+		
+		<field name="phone" type="text"
+			description="Phone"
+			filter="phone"
+			label="Phone"
+			message="Phone"
+			size="30"
+		/>
+		
+		 <field name="birthday" type="calendar"
+                        
+				label="Birth Date"
+				description="Birth Date" 
+				filter="raw" 
+				required="true"
+		/> 
+		
+		<field name="paypal_account" type="text"
+			description="Paypal Account"
+			filter="string"
+			label="Paypal Account"
+			message="paypal account"
+			validate="email"
+			size="30"
+		/>
+	</fieldset>
+</form>

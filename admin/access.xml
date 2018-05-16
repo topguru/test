@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<access component="com_awardpackage">
+	<section name="component">
+		<action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
+		<action name="core.manage" title="JACTION_MANAGE" description="COM_COMMUNITYSURVEYS_JACTION_MANAGE_DESC" />
+		<action name="core.create" title="JACTION_CREATE" description="COM_COMMUNITYSURVEYS_JACTION_CREATE_DESC" />
+		<action name="core.delete" title="JACTION_DELETE" description="COM_COMMUNITYSURVEYS_JACTION_DELETE_DESC" />
+		<action name="core.edit" title="JACTION_EDIT" description="COM_COMMUNITYSURVEYS_JACTION_EDIT_DESC" />
+		<action name="core.edit.state" title="JACTION_EDITSTATE" description="COM_COMMUNITYSURVEYS_JACTION_EDITSTATE_DESC" />
+		<action name="core.edit.own" title="JACTION_EDITOWN" description="COM_COMMUNITYSURVEYS_JACTION_EDITOWN_DESC" />
+		<action name="core.wysiwyg" title="COM_COMMUNITYSURVEYS_JACTION_WYSIWYG" description="COM_COMMUNITYSURVEYS_JACTION_WYSIWYG_DESC" />
+		<action name="core.autoapprove" title="COM_COMMUNITYSURVEYS_JACTION_AUTO_APPROVE" description="COM_COMMUNITYSURVEYS_JACTION_AUTO_APPROVE_DESC" />
+		<action name="core.respond" title="COM_COMMUNITYSURVEYS_JACTION_TAKE_SURVEY" description="COM_COMMUNITYSURVEYS_JACTION_TAKE_SURVEY_DESC" />
+		<action name="core.results" title="COM_COMMUNITYSURVEYS_JACTION_VIEW_RESULTS" description="COM_COMMUNITYSURVEYS_JACTION_VIEW_RESULTS_DESC" />
+	</section>
+	<section name="category">
+		<action name="core.create" title="JACTION_CREATE" description="COM_CATEGORIES_ACCESS_CREATE_DESC" />
+		<action name="core.delete" title="JACTION_DELETE" description="COM_CATEGORIES_ACCESS_DELETE_DESC" />
+		<action name="core.edit" title="JACTION_EDIT" description="COM_CATEGORIES_ACCESS_EDIT_DESC" />
+		<action name="core.edit.state" title="JACTION_EDITSTATE" description="COM_CATEGORIES_ACCESS_EDITSTATE_DESC" />
+		<action name="core.edit.own" title="JACTION_EDITOWN" description="COM_CATEGORIES_ACCESS_EDITOWN_DESC" />
+		<action name="core.wysiwyg" title="COM_COMMUNITYSURVEYS_JACTION_WYSIWYG" description="COM_COMMUNITYSURVEYS_JACTION_WYSIWYG_DESC" />
+		<action name="core.autoapprove" title="COM_COMMUNITYSURVEYS_JACTION_AUTO_APPROVE" description="COM_COMMUNITYSURVEYS_JACTION_AUTO_APPROVE_DESC" />
+		<action name="core.respond" title="COM_COMMUNITYSURVEYS_JACTION_TAKE_SURVEY" description="COM_COMMUNITYSURVEYS_JACTION_TAKE_SURVEY_DESC" />
+	</section>
+</access>
